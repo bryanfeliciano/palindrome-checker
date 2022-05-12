@@ -1,6 +1,6 @@
+{-# LANGUAGE OverloadedStrings #-}
 module Lib
-    ( someFunc
-    ) where
-
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+ ( isPalindrome
+ ) where
+import qualified Data.Text as T
+import Data.Char (toLower,isSpace,isPunctuation)
